@@ -16,32 +16,12 @@ let { log } = console;
 //Note: using console only to log out results is acceptable, however using the browser is OK
 
 // 1A: fetch posts from above api in a function then return the results.
-const getData = () => {
-  const post = fetch(`${api}/posts`)
-    .then((response) => response.json())
-    .then((data) => {
-      return data;
-    });
-  return post;
-};
 
-//1B: loop through all post from fetch function above
+//1B: loop through all post from fetch function above number 1A
 
-getData().then((data) => {
-  log(data);
-  data.forEach((i) => {
-    return (apiContainer.innerHTML = `<div>
-        <h3>Title: <span>${i.title}</span></h3>
-        <p>Message: <span>${i.body}</span></p>
-        <p>UserId: <span>${i.userId}</span></p>
-        <p>ID: <span>${i.id}</span></p>
-    </div>`);
-  });
-});
+//1C: get me 50 post out from number 1A above
 
-//1C: get me 50 post out from number 1 above
-
-//1D: get me out only title of the post from number 3 above
+//1D: get me out only title of the post from number 1C above
 
 //users
 // 2A:  fetch users from above api in a function then return the results.
