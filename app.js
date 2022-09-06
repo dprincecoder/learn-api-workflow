@@ -44,3 +44,4 @@ getData().then((data) => {
 //1D: filter out only title of the post from number 3 above
 
 // 2A:  fetch comments from above api in a function then return the results.
+
