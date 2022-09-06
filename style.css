@@ -18,3 +18,9 @@ p {
 span {
   color: black;
 }
+
+.item-group {
+  margin: 1rem;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
