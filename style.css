@@ -22,5 +22,13 @@ span {
 .item-group {
   margin: 1rem;
   border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
+}
+
+.api-details-post,
+.api-details-users {
+  height: 80vh;
+  overflow-x: hidden;
+  margin-bottom: 3rem;
+  width: 100%;
 }
